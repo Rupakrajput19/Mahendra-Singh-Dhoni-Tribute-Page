@@ -4,4 +4,4 @@ Deployment link:- https://rupakrajput19.github.io/Mahendra-Singh-Dhoni-Tribute-P
 
 Design &amp; Developed By Ritu Kumar(Rupak Rajput)
 
-![image](/IMAGE of rupakrajput19-github-io-Mahendra-Singh-Dhoni-Tribute-Page.png)
+![App Screenshot](IMAGE of rupakrajput19-github-io-Mahendra-Singh-Dhoni-Tribute-Page.png)
