@@ -1,0 +1,132 @@
+/* Animationheading Start */
+#load{
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  height: 5px;
+  width: 1500px;
+  background-color: var(--background); /* Here i used a global variable for background color thats i already defined in (msd.css file )  */
+  /* background-color: black; */
+  /* border: 2px solid blue; */
+}
+
+#load #loading {
+  /* display: inline-block; */
+  position: fixed;
+  top: 0px;
+  background-color: red;
+  /* border: 1px solid black; */
+  height: 4px;
+  z-index: 10000;
+  margin: 0;
+  padding: 0;
+  /* width: 5px; */
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  /* animation-delay: 0.5s; */
+   animation-iteration-count:1;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+  /* animation-direction:forward; */
+} 
+
+@keyframes loading{
+  10% {
+    width: 100px;
+  }
+  40%{
+    width: 700px;
+  }
+  100% {
+    width: 1450px;
+  }
+}
+
+
+
+
+/*
+#animationheading{
+    font-size:50px;
+    width: 550px;
+    margin: 50px auto;
+    font-weight:bolder;
+    text-decoration: underline;
+    /* color: red; */
+    /* background-color: var(--background);
+    border: 5px solid black;
+    border-radius: 45%;
+    padding: 20px 20px 20px 60px ; */
+    /* box-sizing: border-box; */
+    /* text-align: center; */
+    /* cursor: pointer; */
+    /* animation-name: width-animation; */
+    /* animation-name: msd-animation;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } */
+  /* @keyframes width-animation{
+    from{
+      width: 300px;
+      color: white;
+    }
+    to{
+      width: 800px;
+      color: black;
+    }
+  } */
+  
+  /* @keyframes msd-animation{
+    10%{
+      color: var(--background);
+      background-color: black; */
+      /* width: 250px; */
+    /* }
+    30%{
+      color: black;
+      background-color: lightgreen;
+      width: 700px;
+    }
+    50%{
+      color: lightgreen;
+      background-color: red;
+      width: 950px;
+    }
+    75%{
+      color: red;
+      background-color: blue;
+      width: 1100px;
+    }
+    100%{
+      color: blue;
+      background-color:var(--background) ;
+      width: 1300px;
+    } */
+    /* 75%{
+      color: orange;
+      background-color: white;
+      width: 850px;
+    }
+    100%{
+      color: white;
+      background-color: black;
+      width: 950px;
+    } */
+  /* } */
+  /* .animationheading:hover{
+    color: white;
+    width: 950px;
+    background-color: black;
+     transition-property:width;
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0.5s;
+  
+  } */
+    
+    /* Animationheading End */
+   

@@ -1,0 +1,163 @@
+/* Media Query for all devices is written here */
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .navbar {
+    position: fixed;
+    top: 5px;
+    height: 75px;
+    width: 1370px;
+    margin: 0 40px 0 25px;
+  }
+  .navbar ul li a {
+    font-size: 16px;
+    padding: 4px 6px;
+    margin: 0 10px 0 15px;
+  }
+  .navbar ul li a:hover {
+    font-size: 20px;
+  }
+  #msdheading {
+    margin: 150px 0 0 80px;
+  }
+  #msdtop {
+    width: 135%;
+    margin: auto;
+  }
+  #main-img {
+    width: 1300px;
+    margin: 10px 20px 0 40px;
+  }
+
+  .thala {
+    width: 80%;
+    margin: 0 0 20px 330px;
+  }
+  .cool {
+    margin: auto;
+    width: 150%;
+  }
+  .img-center {
+    margin: 20px 0 0 510px;
+  }
+  .intromsd {
+    padding: 30px 30px;
+    font-size: 9px;
+    margin: 0 50px 50px 90px;
+  }
+  .intromsd p::first-letter {
+    font-size: small;
+  }
+  .msddetails {
+    font-size: 7px;
+    padding: 50px;
+    margin: 50px 0 0 100px;
+  }
+
+  .msddetails ul li {
+    line-height: 30px;
+  }
+  .msddetails h1 {
+    font-size:16px;
+  }
+  .sub-heading {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .sub-heading::first-letter {
+    font-size: 18px;
+  }
+
+  .imgstyle {
+    margin-left: 460px;
+  }
+  #timeline {
+    margin: auto;
+    width: 150%;
+  }
+  #award {
+    width: 150%;
+    margin: auto;
+  }
+  .media-center {
+    margin: auto;
+    width: 145%;
+    line-height: 30px;
+  }
+  #bottom {
+    width: 145%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    top: 5px;
+    height: 75px;
+    width: 1350px;
+    margin: 0 40px 0 25px;
+  }
+
+  .navbar ul li a {
+    font-size: 16px;
+    padding: 4px 6px;
+    margin: 0 10px 0 15px;
+  }
+  .navbar ul li a:hover {
+    font-size: 20px;
+  }
+
+  #msdheading {
+    margin: 150px 0 20px 100px;
+  }
+  #msdtop {
+    width: 345%;
+    margin: auto;
+  }
+  #main-img {
+    width: 1300px;
+    margin: 10px 50px 0 30px;
+  }
+  .msddetails {
+    padding: 50px;
+    margin: 50px 0 20px 100px;
+  }
+  .msddetails ul li {
+    line-height: 50px;
+  }
+  .thala {
+    width: 195%;
+    margin: 0 0 20px 320px;
+  }
+  .cool {
+    margin: 0 auto;
+    width: 370%;
+  }
+  .img-center {
+    margin: 20px 0 20px 550px;
+  }
+  .intromsd {
+    padding: 20px 30px;
+    margin: 20px 0 50px 70px;
+  }
+  .imgstyle {
+    margin-left: 430px;
+  }
+  #timeline {
+    margin: auto;
+    width: 360%;
+  }
+  #award {
+    width: 370%;
+    margin: auto auto;
+  }
+  .media-center {
+    margin: auto auto;
+    width: 360%;
+    line-height: 40px;
+  }
+  #bottom {
+    width: 360%;
+    margin: auto;
+  }
+}
